@@ -27,6 +27,116 @@
     font-style: normal;
 }
 
+body {
+
+}
+
+header section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1260px;
+    height: 130px;
+    padding: 0px 80px;
+}
+
+header .img-logo {
+    background-image: url("./img/Freshnesecom.svg");
+    background-repeat: no-repeat;
+    width: 177px;
+    height: 18px;
+}
+
+header .input {
+    display: flex;
+    background: #F9F9F9;
+    align-items: center;
+    
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+    width:500px;
+    height:42px;
+}
+
+header .input .all-categories {
+    margin-left: 16px;
+
+    font: 700 15px 'Poppins';
+    color: #151515;
+}
+
+header .input .line-input{
+    border: 1px solid #D1D1D1;
+    transform: rotate(90deg);
+    width: 20px;
+    height: 0px;
+    margin-left: 48px;
+}
+header .input .search-product {
+
+    color: #A9A9A9;
+    font: 400 14px 'Poppins';
+    margin-left: 24px;
+    
+}
+
+
+
+section .banner {
+    display: grid;
+    justify-content: center;
+    
+    grid-gap: 31px;
+    grid-template-columns: 420px 420px;
+    margin-top: 112px;
+    
+    
+
+
+}
+
+.banner .item {
+    background: #FFFFFF;
+    border: 1px solid #d1d1d1;
+    background-image: url("./img/Group\ 18.svg");
+    border-radius: 12px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.banner .item p {
+    font: 600 12px 'Poppins';;
+    color: #6A983C;
+    margin: 48px 0 0 33px;
+
+}
+
+.banner .item h2 {
+    font: 600 22px 'Poppins';
+    color: #151515;
+    margin: 8px 0 0 33px;
+}
+
+.banner .item .banner-btn {
+    
+    width: 163px;
+    height: 47px;
+    margin: 93px 0 0 33px;
+
+
+
+    border: 2px solid #92C064;
+    border-radius: 12px;
+}
+
+.banner .item .banner-btn p {
+    font: 700 15px 'Poppins';
+    color: #151515;
+    margin-top: -1px;
+    
+}
 
 .block {
     justify-content: center;
@@ -34,6 +144,7 @@
     grid-template-columns: 269px 269px 269px;
     grid-column-gap: 32px;
     grid-row-gap: 130px;
+    margin-top: 128px;
 }
 
 .item .img {
