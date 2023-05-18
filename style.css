@@ -204,11 +204,26 @@ footer {
     margin-top: 64px;
 }
 
+
 footer .column-fiiter {
     display: flex;
     justify-content: space-between;
 
 }
+
+footer .column-fiiter p {
+    
+    font: 400 14px 'Poppins';
+    color: #6A983C;
+
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 600px) {
     .block {
