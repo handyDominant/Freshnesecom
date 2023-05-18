@@ -200,7 +200,15 @@ section .banner {
     line-height: 36px;
 }
 
+footer {
+    margin-top: 64px;
+}
 
+footer .column-fiiter {
+    display: flex;
+    justify-content: space-between;
+
+}
 
 @media screen and (max-width: 600px) {
     .block {
