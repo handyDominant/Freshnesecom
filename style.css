@@ -51,16 +51,27 @@
 
 }
 
+.block .item h3 {
+    font: 500 15px 'Poppins';
+    color: #151515;
+}
+
 .block .item p{
     font: 400 12px 'Poppins';
     color: #575757; 
 }
 
-.block .item .flex{
+.block .item .flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 21px;
+}
+
+.block .item .flex h2 {
+    font:600 18px 'Poppins';
+    color: #151515;
+    
 }
 
 
@@ -76,8 +87,9 @@
     color: #FFFFFF;
     text-align: center;
     line-height: 36px;
-    
 }
+
+
 
 @media screen and (max-width: 600px) {
     .block {
