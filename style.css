@@ -68,6 +68,12 @@
 
     font: 700 15px 'Poppins';
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+    .block {
+        grid-template-columns: 269px;
+    }
     
 }
 
