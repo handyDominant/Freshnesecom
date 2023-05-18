@@ -48,14 +48,20 @@
     background: #FFFFFF;
     border: 1px solid #d1d1d1;
     padding: 10px;
+
+}
+
+.block .item p{
+    font: 400 12px 'Poppins';
+    color: #575757; 
 }
 
 .block .item .flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 21px;
 }
-
 
 
 .block .item .btn {
@@ -68,6 +74,9 @@
 
     font: 700 15px 'Poppins';
     color: #FFFFFF;
+    text-align: center;
+    line-height: 36px;
+    
 }
 
 @media screen and (max-width: 600px) {
