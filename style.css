@@ -201,7 +201,7 @@ section .banner {
 }
 
 footer {
-    margin-top: 64px;
+    margin: 64px;
 }
 
 
@@ -219,7 +219,7 @@ footer .column-fiiter p {
 }
 
 .footer .column-fiiter  p {
-    margin: 10px;
+    margin-top: 20px;
 }
 
 
